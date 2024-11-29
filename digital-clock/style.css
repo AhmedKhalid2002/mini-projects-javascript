@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #2e2e44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #2d2f41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.581);
+  padding: 10px;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.dots {
+  font-size: 7rem;
+  color: #929292;
+}
+.hour {
+  font-size: 7rem;
+  background: -webkit-linear-gradient(90deg, #634dff, #5f4fff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.minute {
+  font-size: 7rem;
+  background: -webkit-linear-gradient(90deg, #ff5e9a, #ffb960);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.second,
+.period {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.period,
+.calender {
+  transform: translateY(-20px);
+  background: -webkit-linear-gradient(90deg, #f7b63f, #faf879);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.second {
+  transform: translateY(16px);
+  background: -webkit-linear-gradient(90deg, #24ff6d, #2f93fa);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.calender {
+  font-size: 1, 5rem;
+  padding: 10px;
+  text-align: center;
+}
